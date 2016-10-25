@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'beaches/index'
+
+  get 'beaches/show'
+
+  get 'sessions/index'
+
+  get 'users/index'
+
+  get 'users/show'
+
+  get 'users/create'
+
+  get 'user/index'
+
+  get 'user/show'
+
+  get 'user/create'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
